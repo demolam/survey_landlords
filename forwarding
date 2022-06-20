@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    
+    <p>You are being redirected...</p>
+    
+    <script>
+      // replace these with your own urls
+      const urls = [
+        'https://forms.gle/ToTA31hWMRTMrSgu8',
+        'https://forms.gle/q9SadcknH9BSUTza8',
+        'https://forms.gle/L8P8AY11gfWiEvCE8',
+        'https://forms.gle/vtNWJGg8Du8WyVc7A',
+        'https://forms.gle/xweFngnmdZVEuVQ79',
+        'https://forms.gle/qTCZ93KxD7P9h1fe9',
+        'https://forms.gle/ZayXVog6tzPL8SeBA',
+        'https://forms.gle/2r9iuH6HMt7hzwn39',
+        ]
+      
+      const target = urls[Math.floor(Math.random()*urls.length)];
+      window.location.replace(target);
+      
+    </script>
+  </body>
+</html>
